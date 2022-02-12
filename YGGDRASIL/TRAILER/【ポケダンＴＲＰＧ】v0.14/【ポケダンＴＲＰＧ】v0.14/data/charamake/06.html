@@ -1,0 +1,171 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="content-style-type" content="text/css">
+<style type="text/css">
+<!--
+	body {
+		font-family:'メイリオ', 'Meiryo', sans-serif;
+		background: url(../image/bg06.png)  fixed center top;
+		margin:0;
+		padding:0;
+		color:#ffffff;
+		background-size: cover;
+	}
+	h1 {
+	background-repeat: no-repeat;
+		background-image:url(../image/symbol06.png);
+		background-size: 5em;
+		background-position: right;
+		background-color: #000000;
+		padding: 0.5em;
+		border: 0.1em solid #ffffff;
+		color: #ffffff;
+	}
+	h2 {
+	background-repeat: no-repeat;
+		background-image:url(../image/symbol06.png);
+		background-size: 4em;
+		background-position: right;
+		background-color: #000000;
+		padding: 0.5em;
+		border: 0.1em solid #ffffff;
+		color: #ffffff;
+	}
+	h3 {
+	background-repeat: no-repeat;
+		background-image:url(../image/symbol06.png);
+		background-size: 3em;
+		background-position: right;
+		background-color: #000000;
+		padding: 0.5em;
+		border: 0.1em solid #ffffff;
+		color: #ffffff;
+	}
+	div {
+		padding-left: 1em;
+	}
+-->
+</style>
+<p>
+<table style="background:rgba(0,0,0,0.6);" cellspacing="0" cellpadding="20" width="80%" align="center">
+	<tr>
+		<td>
+			<h1><b>⑥：わざを取得しよう</b></h1>
+			<hr size="2">
+			<div>
+				　ポケモンが肉体に宿すエネルギーを解き放って発揮する、特別な力のことを［わざ］といいます。<br>
+				　バトルにおいて要となる概念で、敵を攻撃するものの他に、自分や味方を強化するもの、果てはバトルの環境そのものを変えてしまうものまで様々です。<br>
+				　ポケモン１体につき、［わざ］は４種類まで習得することができます。憶えられるわざにどんなものがあるかは、［わざ一覧］を参照してください。
+				<h2><b>わざの構成要素</b></h2>
+					<p>
+						<table border="1" style="border-collapse: collapse" align="center" width="80%" cellpadding="10">
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;" nowrap>
+									取得条件
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									<p>
+										わざにはポケモンのタイプやスキルによって向き・不向きがあります。<br>
+										この欄を満たしていなければ、ポケモンはそのわざを取得することができません。
+									</p>
+									<p>
+										なお、全ての条件を満たす必要はなく、<br>
+										番号が振られているものの内から、いずれか1つを満たしていれば取得可能です。<br>
+										<font size="2">（番号内で複数の条件が並んでいる場合は、それら全てで１つの条件という扱いになります）</font>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									タイプ
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									わざがどのタイプのエネルギーによって発動するものなのかを示します。<br>
+									相手のタイプによって［タイプ相性］の影響を受ける他、<br>
+									ポケモン自身と同じタイプのわざを使用した場合は威力が＋１されます。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									分類</font>
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									ダメージ計算の際、どの能力値を参照するかを表します。<br>
+									［ぶつり］わざの場合は［こうげき］と［ぼうぎょ］で、<br>
+									［とくしゅ］わざの場合は［とくこう］と［とくぼう］でダメージ計算を行います。<br>
+									［へんか］わざはダメージを与えませんが、ポケモンの強化・弱化、状態異常付与など、様々な特殊効果を発生させることができます。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									範囲</font>
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									どのポケモンを対象にしたわざを表します。<br>
+									「単体」のわざはポケモン1体に、「全体」のわざはその陣営全員に効果があります。<br>
+									なお、効果が「単体（相手）」のわざは［前衛］のポケモンしか狙えません。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									消費PP</font>
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									そのわざで消費するPPの値です。<br>
+									強力なわざほど消費PPが大きい傾向にあります。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									威力</font>
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									わざの威力です。<br>
+									ダメージロールはこの値を参照して行います。<br>
+									へんかわざや一部の攻撃わざは、この部分が「なし」となっている場合があります。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									命中
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									わざの命中力です。命中判定を行う上で基礎値となります。<br>
+									「必中」と書かれているわざは、必ず当たります。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									C値
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									ダメージロールでこの値以上の数値が出た場合、<ruby><rb>クリティカルヒット</rb><rp>（</rp><rt>きゅうしょにあたった！</rt><rp>）</rp></ruby>が発生します。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									直接
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									そのわざが標的と接触する必要があるかを示します。<br>
+									一部の効果は直接攻撃をトリガーに発動します。
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#ffffff; background-color: #000000;">
+									効果
+								</td>
+								<td  style="color:#000000; background-color: #ffffff;">
+									そのわざに含まれる、威力や命中力以外の固有効果です。
+								</td>
+							</tr>
+						</table>
+					</p>
+			</div>
+		</td>
+	</tr>
+</table>
+</p>
+
+</body>
+</html>
