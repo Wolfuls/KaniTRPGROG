@@ -110,11 +110,15 @@ p {
  @media screen and (max-width: 480px) {
 .tabname::before {
 	content: "";
+	border-collapse: collapse;
+    table-layout: fixed;
 }
 }
  @media screen and (max-width: 480px) {
 .tabname::after {
 	content: "";
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 }
 /* 名前 span */
