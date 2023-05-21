@@ -7,17 +7,7 @@ body{
     font-size: 14px;
     line-height: 140%;
     }
-    
-.sticky {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  width: 100%;
-  margin: 0;
-  padding: 5px;
-  background: #fff;
-  color: #333;
-  }
+
 /* 公開チャット div */
 tr.open{
     padding:10px 0 10px 0;
@@ -63,20 +53,8 @@ tr.tab5{
     overflow:  fixed;
     background:#f0faff;
     }
-/* リモタブ tab6 */
+/* その他タブ tab6 */
 tr.tab6{
-    padding:10px 0 10px 10px;
-    overflow:  fixed;
-    background:#fffaf0;
-    }
-/* リモタブ tab7 */
-tr.tab7{
-    padding:10px 0 10px 10px;
-    overflow:  fixed;
-    background:#f0f8ff;
-    }
-/* その他タブ tab8 */
-tr.tab8{
     padding:10px 0 10px 10px;
     overflow:  fixed;
     background:#efefef;
@@ -155,5 +133,3 @@ p {
 .maintext{
     word-break: break-word;
     }
-    
-
